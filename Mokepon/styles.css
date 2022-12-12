@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Quicksand&display=swap');
+
+body{
+    font-family: 'Almendra Display', cursive;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #460C68;
+}
+
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 32px;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 20px;
+}
+
+.tarjetas{
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon{
+    width: 180px;
+    height: 100px;
+    background: #7F167F;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.tarjeta-de-mokepon img{
+    width: 80px;
+}
+
+#boton-mascota{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Almendra Display', cursive;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 30px;
+}
+
+input{
+    display: none;
+}
+
+#seleccionar-ataque{
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque{
+    background-color: #7F167F;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 200px;
+    color: white;
+    font-family: 'Almendra Display', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
